@@ -10,5 +10,4 @@ export default function average(data) {
     }
     const sum = data.reduce((a, b) => a + b, 0);
     return sum / data.length;
-    console.log('ca marche !');
 }
